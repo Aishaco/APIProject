@@ -1,0 +1,81 @@
+/* CSS files add styling rules to your content */
+
+body{
+  background:#cad1de;
+}
+
+bnav {
+  height: 44px;
+  background: #000000;
+}
+
+nav ul {
+  display: flex;
+  height: 25px;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+nav a {
+  display: block;
+  color: #86868b;
+  font-size: 15px;
+  font-weight: lighter;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #B8B8B8;
+}
+
+#applelogo {
+  hieght: 20px;
+  width: 20px;
+}
+
+#searchy {
+  hieght: 35px;
+  width: 35px;
+}
+#bag {
+  hieght: 20px;
+  width: 20px;
+}
+
+#jumbo{
+ margin:35px;
+  background: url("https://images.unsplash.com/photo-1552508744-1696d4464960?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height:435px;
+}
+
+#input{
+  text-align:center;
+}
+.titlee{
+  text-decoration:underline;
+  text-weight:bold;
+  text-size:20px;
+  text-align:center;
+}
+.contento{
+   text-align:center;
+}
+.linky{
+   text-align:center;
+}
+#wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  
+}
+#carousel{
+  margin:35px;
+  height:350px;
+}
